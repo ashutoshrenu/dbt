@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: mindler
+    database: mindler
+    schema: mindler_english
+    tables:
+      - name: cart_page_leads
+        description: "lead details"
