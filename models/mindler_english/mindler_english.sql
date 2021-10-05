@@ -9,3 +9,7 @@ final as (
 )
 
 select * from final
+
+{{ config(
+   post_hook="UPDATE {{ this }} SET lead_name='Ashutosh' where email='vishal.yadav@mindler.com'"
+) }}
