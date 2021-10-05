@@ -1,6 +1,6 @@
 with leads as (
 
-	select * from {{ source('mindler', 'cart_page_leads') }}
+	select * from {{ source('mindler_english', 'cart_page_leads') }}
 ),
 
 final as (
