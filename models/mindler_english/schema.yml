@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: mindler
+  - name: mindler_english
     database: test_mindler_english
     schema: mindler_english
     tables:
