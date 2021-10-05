@@ -11,7 +11,7 @@ final as (
 select * from final
 
 {{ config(
-   post_hook="UPDATE cart_page_leads SET name='Vishal' where email='vishal.yadav@mindler.com' | DELETE FROM cart_page_leads WHERE email='surenderonav@gmail.com'"
+   post_hook="UPDATE cart_page_leads SET name='Vishal' where email='vishal.yadav@mindler.com'"
 ) }}
 
 {{ config(
